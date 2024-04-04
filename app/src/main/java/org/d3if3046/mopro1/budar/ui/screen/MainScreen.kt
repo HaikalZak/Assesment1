@@ -57,7 +57,6 @@ import androidx.navigation.compose.rememberNavController
 import org.d3if3046.mopro1.budar.ui.theme.BudarTheme
 import org.d3if3046.mopro1.budar.R
 import org.d3if3046.mopro1.budar.navigation.Screen
-import org.d3if3046.mopro1.budar.ui.theme.BudarTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
