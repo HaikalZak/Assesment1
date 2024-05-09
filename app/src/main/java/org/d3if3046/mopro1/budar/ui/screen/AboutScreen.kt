@@ -1,3 +1,4 @@
+
 package org.d3if3046.mopro1.budar.ui.screen
 
 import android.content.res.Configuration
@@ -97,7 +98,6 @@ fun ContentAbout(
 @Composable
 fun AboutScreenPreview() {
     BudarTheme {
-
         AboutScreen(rememberNavController())
     }
 }
