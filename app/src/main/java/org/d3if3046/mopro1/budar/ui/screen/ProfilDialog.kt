@@ -28,6 +28,7 @@ import androidx.compose.ui.window.Dialog
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import org.d3if3046.mopro1.budar.R
+import org.d3if3046.mopro1.budar.model.User
 import org.d3if3046.mopro1.budar.ui.theme.BudarTheme
 
 
