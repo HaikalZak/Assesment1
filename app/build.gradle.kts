@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -19,6 +21,11 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+        val properties = Properties()
+        properties.load(project.rootProject.file("local.properties").inputStream()
+        )
+        buildConfigField(
+            "String", "API_KEY", properties.getProperty("API_KEY"))
     }
 
     buildTypes {
@@ -38,6 +45,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
+        buildConfig = true
         compose = true
     }
     composeOptions {
@@ -84,5 +92,6 @@ dependencies {
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.0")
     implementation("androidx.datastore:datastore-preferences-android:1.1.1")
     implementation("com.vanniktech:android-image-cropper:4.5.0")
+
 
 }

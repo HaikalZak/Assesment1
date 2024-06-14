@@ -12,6 +12,7 @@
     <string name="budaya_tak_benda">Budaya Tak Benda</string>
     <string name="tambah_budaya1">Tambah Budaya</string>
     <string name="tambah_error">Tidak Bisa Tambah Budaya</string>
+    <string name="profil">Profil</string>
 
     <string name="list_kosong">Belum ada data</string>
     <string name="x_diklik">%1$s diklik</string>
@@ -38,5 +39,7 @@
     <string name="cancel">Batal</string>
     <string name="tambah_hewan">Tambah hewan</string>
     <string name="assesment">Assesment 3</string>
-
+    <string name="gambar">Gambar</string>
+    <string name="error">error</string>
+    <string name="try_again">Coba lagi</string>
 </resources>

@@ -27,7 +27,7 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 interface HaikalApiService {
-    @GET("json.php  ")
+    @GET("api_haikal.php")
     suspend fun getHaikal(
         @Query("auth") userId: String
     ): List<Haikal>
@@ -42,7 +42,7 @@ interface HaikalApiService {
     ): OpStatus
 
     @DELETE("api_haikal.php")
-    suspend fun deleteHudan(
+    suspend fun deleteHaikal(
         @Query("auth") userId: String,
         @Query("id") id: String
     ): OpStatus

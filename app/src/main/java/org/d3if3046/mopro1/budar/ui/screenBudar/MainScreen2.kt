@@ -74,6 +74,7 @@ import org.d3if3046.mopro1.budar.ui.theme.BudarTheme
 import org.d3if3046.mopro1.budar.util.SettingsDataStore
 import org.d3if3046.mopro1.budar.util.ViewModelFactory
 
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainScreen2(navController: NavHostController) {
