@@ -1,4 +1,4 @@
-package org.d3if3046.mopro1.budar.ui.screen
+package org.d3if3046.mopro1.budar.ui.screenBudar
 
 import android.content.ClipData
 import android.content.Context

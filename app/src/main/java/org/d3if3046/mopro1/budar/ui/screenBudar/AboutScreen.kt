@@ -1,10 +1,9 @@
 
-package org.d3if3046.mopro1.budar.ui.screen
+package org.d3if3046.mopro1.budar.ui.screenBudar
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack

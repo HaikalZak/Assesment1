@@ -1,4 +1,4 @@
-package org.d3if3046.mopro1.budar.ui.screen
+package org.d3if3046.mopro1.budar.ui.screenBudar
 
 import android.content.res.Configuration
 import androidx.compose.material3.AlertDialog

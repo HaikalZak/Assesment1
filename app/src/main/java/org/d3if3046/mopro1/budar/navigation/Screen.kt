@@ -1,7 +1,7 @@
 
 package org.d3if3046.mopro1.budar.navigation
 
-import org.d3if3046.mopro1.budar.ui.screen.KEY_JUDUL
+import org.d3if3046.mopro1.budar.ui.screenBudar.KEY_JUDUL
 
 sealed class Screen (val route:String) {
     data object Awal: Screen("awalScreen")

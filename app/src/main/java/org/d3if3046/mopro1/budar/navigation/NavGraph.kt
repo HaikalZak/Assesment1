@@ -8,10 +8,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import org.d3if3046.mopro1.budar.ui.screen.AboutScreen
-import org.d3if3046.mopro1.budar.ui.screen.AwalScreen
-import org.d3if3046.mopro1.budar.ui.screen.DetailScreen
-import org.d3if3046.mopro1.budar.ui.screen.KEY_JUDUL
+import org.d3if3046.mopro1.budar.ui.screenBudar.AboutScreen
+import org.d3if3046.mopro1.budar.ui.screenBudar.AwalScreen
+import org.d3if3046.mopro1.budar.ui.screenBudar.DetailScreen
+import org.d3if3046.mopro1.budar.ui.screenBudar.KEY_JUDUL
 import org.d3if3046.mopro1.budar.ui.screen.MainScreen
 
 @Composable

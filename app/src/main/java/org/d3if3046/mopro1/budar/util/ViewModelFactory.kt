@@ -3,7 +3,7 @@ package org.d3if3046.mopro1.budar.util
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.d3if3046.mopro1.budar.database.BudarDao
-import org.d3if3046.mopro1.budar.ui.screen.DetailViewModel
+import org.d3if3046.mopro1.budar.ui.screenBudar.DetailViewModel
 import org.d3if3046.mopro1.budar.ui.screen.MainViewModel
 
 class ViewModelFactory(

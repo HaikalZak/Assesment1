@@ -1,4 +1,4 @@
-package org.d3if3046.mopro1.budar.ui.screen
+package org.d3if3046.mopro1.budar.ui.screenBudar
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
