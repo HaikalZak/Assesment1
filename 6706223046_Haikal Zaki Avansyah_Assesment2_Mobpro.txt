@@ -1,0 +1,5 @@
+Nama	: Haikal Zaki Avansyah
+NIM	: 6706223046
+Matkul	: Mobpro (Assesment 2)
+
+Link repository/git	: https://github.com/HaikalZak/Assesment1.git 	
